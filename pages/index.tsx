@@ -52,19 +52,34 @@ export async function getServerSideProps() {
     props: {
       results: [
         {
+          id: "24522",
           name: "Unbranded Concrete Gloves",
           description:
             "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
           price: "860.00",
-          image: "http://placeimg.com/640/480/cats",
-          id: "123",
+          image: "https://picsum.photos/640/480",
         },
         {
           id: "24523",
           name: "Gorgeous Wooden Chicken",
           description:
             "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-          image: "http://placeimg.com/640/480/nightlife",
+          image: "https://picsum.photos/640/480",
+        },
+        {
+          id: "24524",
+          name: "Exceptional Fast Car",
+          description:
+            "This desirable manual-transmission car benefits from long-term early ownership and a well-documented maintenance history",
+          image: "https://picsum.photos/640/480",
+        },
+        {
+          id: "24525",
+          name: "Splendid Gardening Secateurs",
+          description:
+            "An indispensable tool, essential for tidying up around the garden",
+          image: "https://picsum.photos/640/480",
+          price: "49.99",
         },
       ],
     },
